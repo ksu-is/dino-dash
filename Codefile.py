@@ -31,7 +31,7 @@ obstacle_img.fill((255, 0, 0))  # Red placeholder
 ground_img = pygame.Surface((SCREEN_WIDTH, 10))
 ground_img.fill((100, 100, 100))  # Gray ground
 
-# Dino class
+# Dino
 class Dino:
     def __init__(self):
         self.x = 50
@@ -53,7 +53,7 @@ class Dino:
                 self.y = SCREEN_HEIGHT - self.height - 10
                 self.is_jumping = False
 
-# Obstacle class
+# Obstacle 
 class Obstacle:
     def __init__(self, x):
         self.x = x
